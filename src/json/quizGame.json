@@ -1,0 +1,195 @@
+[
+    {
+        "question": "Fotosentez nedir?",
+        "option1": "Bitkilerin güneş enerjisini kullanarak karbondioksit ve suyu glikoza dönüştürmesidir.",
+        "option2": "Bitkilerin suyu kullanarak karbondioksiti oksijene dönüştürmesidir.",
+        "option3": "Bitkilerin topraktan mineral emerek besin yapmasıdır.",
+        "option4": "Bitkilerin gövde ve yapraklarını geliştirmesi sürecidir.",
+        "ans": 1
+    },
+    {
+        "question": "Atomun en küçük parçası nedir?",
+        "option1": "Proton",
+        "option2": "Elektron",
+        "option3": "Nötron",
+        "option4": "Molekül",
+        "ans": 2
+    },
+    {
+        "question": "İnsan vücudunda en fazla bulunan element hangisidir?",
+        "option1": "Oksijen",
+        "option2": "Hidrojen",
+        "option3": "Karbon",
+        "option4": "Azot",
+        "ans": 1
+    },
+    {
+        "question": "Bir yıl kaç gündür?",
+        "option1": "365 gün",
+        "option2": "360 gün",
+        "option3": "366 gün",
+        "option4": "350 gün",
+        "ans": 3
+    },
+    {
+        "question": "DNA'nın tam açılımı nedir?",
+        "option1": "Deoksiribonükleik asit",
+        "option2": "Dinükleik asit",
+        "option3": "Dioksijen nükleik asit",
+        "option4": "Dörtlü nükleik asit",
+        "ans": 1
+    },
+    {
+        "question": "Hangi gezegen Güneş Sistemi'ndeki en büyük gezegendir?",
+        "option1": "Jüpiter",
+        "option2": "Mars",
+        "option3": "Dünya",
+        "option4": "Satürn",
+        "ans": 1
+    },
+    {
+        "question": "Bir objenin hızı nedir?",
+        "option1": "Konum değişimine göre zaman",
+        "option2": "Zaman değişimine göre konum",
+        "option3": "Kuvvet değişimine göre zaman",
+        "option4": "Hareket değişimine göre zaman",
+        "ans": 2
+    },
+    {
+        "question": "Bir cismin hızı sıfırsa, o cismin durumunu ifade eden kavram nedir?",
+        "option1": "Hareketsizlik",
+        "option2": "Sabit hız",
+        "option3": "Dinlenme",
+        "option4": "Eşit hızlı hareket",
+        "ans": 3
+    },
+    {
+        "question": "Hangi organ insan vücudundaki en büyük organdır?",
+        "option1": "Kalp",
+        "option2": "Beyin",
+        "option3": "Cilt",
+        "option4": "Karaciğer",
+        "ans": 3
+    },
+    {
+        "question": "Hangi element suyun bileşenlerinden biri değildir?",
+        "option1": "Oksijen",
+        "option2": "Hidrojen",
+        "option3": "Karbondioksit",
+        "option4": "Helyum",
+        "ans": 4
+    },
+    {
+        "question": "Hangi renk trafik ışığında durmayı gösterir?",
+        "option1": "Kırmızı",
+        "option2": "Mavi",
+        "option3": "Yeşil",
+        "option4": "Sarı",
+        "ans": 1
+    },
+    {
+        "question": "Bir tavuğun yumurtladığı yer neresidir?",
+        "option1": "Ahır",
+        "option2": "Kalem",
+        "option3": "Yumurtalık",
+        "option4": "Tavukluk",
+        "ans": 3
+    },
+    {
+        "question": "Dünyadaki en büyük okyanus hangisidir?",
+        "option1": "Atlantik Okyanusu",
+        "option2": "Hint Okyanusu",
+        "option3": "Büyük Okyanus",
+        "option4": "Arktik Okyanusu",
+        "ans": 3
+    },
+    {
+        "question": "Hangi gezegen güneş sisteminde en yakın konumdadır?",
+        "option1": "Mars",
+        "option2": "Jüpiter",
+        "option3": "Venüs",
+        "option4": "Neptün",
+        "ans": 3
+    },
+    {
+        "question": "Hangi hayvan uçar?",
+        "option1": "Kedi",
+        "option2": "Köpek",
+        "option3": "Kuş",
+        "option4": "Timsah",
+        "ans": 3
+    },
+    {
+        "question": "Hangi meyve kırmızı ve yuvarlaktır?",
+        "option1": "Elma",
+        "option2": "Muz",
+        "option3": "Portakal",
+        "option4": "Üzüm",
+        "ans": 1
+    },
+    {
+        "question": "Hangi araç su üzerinde hareket edebilir?",
+        "option1": "Otomobil",
+        "option2": "Bisiklet",
+        "option3": "Gemiler",
+        "option4": "Uçak",
+        "ans": 3
+    },
+    {
+        "question": "Hangi mevsimde kar yağar?",
+        "option1": "İlkbahar",
+        "option2": "Yaz",
+        "option3": "Sonbahar",
+        "option4": "Kış",
+        "ans": 4
+    },
+    {
+        "question": "Hangi sayı asal sayıdır?",
+        "option1": "4",
+        "option2": "9",
+        "option3": "11",
+        "option4": "20",
+        "ans": 3
+    },
+    {
+        "question": "Hangi rengin karışımı mor rengi oluşturur?",
+        "option1": "Mavi ve Yeşil",
+        "option2": "Sarı ve Yeşil",
+        "option3": "Kırmızı ve Mavi",
+        "option4": "Kırmızı ve Sarı",
+        "ans": 3
+    },
+    {
+        "question": "Hangi hayvanın sırtındaki kambur su depolamak için kullanılır?",
+        "option1": "Deve",
+        "option2": "At",
+        "option3": "Fil",
+        "option4": "Kamelya",
+        "ans": 1
+    },
+    {
+        "question": "Hangi meyve kabuğu yenir?",
+        "option1": "Elma",
+        "option2": "Portakal",
+        "option3": "Muz",
+        "option4": "Karpuz",
+        "ans": 2
+    },
+    {
+        "question": "Kaç tane ayak üzerinde yürüyen bir köpekbalığı var?",
+        "option1": "4",
+        "option2": "2",
+        "option3": "6",
+        "option4": "0",
+        "ans": 4
+    },
+    {
+        "question": "Hangi mevsimde yapraklar ağaçlardan dökülür?",
+        "option1": "İlkbahar",
+        "option2": "Yaz",
+        "option3": "Sonbahar",
+        "option4": "Kış",
+        "ans": 3
+    }
+
+]

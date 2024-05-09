@@ -1,0 +1,85 @@
+:root{
+    --koyuKrem:#eadfcc9c;
+      --krem: #EADFCC;
+      --siyah:#000;
+      --beyaz:#fff;
+      --sarı:#FAB319;
+      --lacivert:#2C4073;
+      --mavi:#1AB9FF;
+      --pembe:#FC477E;
+      --mor:#A32CFF;
+      --nar:#FF6D6D;
+}
+.haberContainer{
+    display: flex;
+}
+.leftHaber{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 0 2.778% 1.5em;
+    gap: 40px;
+    
+}
+
+.rightHaber{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.haberContainer a{
+    color: var(--siyah);
+}
+
+.haberContainer a:hover{
+    color: var(--nar);
+}
+.haber-link-left{
+    padding-left: 0.75em;
+    margin-left: -1px;
+    border-left: solid 1px #DCDCDC ;
+}
+.haber-link-right{
+    margin-bottom: 1.5em;
+    width: 50%;
+}
+
+.haberImage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.haberImage img{
+    width: 470px;
+    margin: 10px 50px 50px 50px;
+}
+
+
+@media screen and (max-width: 480px) {
+   .haberImage img{
+        width: 275px;
+    }
+    .rightHaber{
+        display: none;
+    }
+    .leftHaber{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 2.778% 1.5em
+    }
+
+}
+
+/* Tablet için stiller */
+@media screen and (min-width: 481px) and (max-width: 950px) {
+   
+    .haberImage img{
+        width: 400px;
+    }
+    .rightHaber{
+       display: none;
+    }
+}

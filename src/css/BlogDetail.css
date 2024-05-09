@@ -1,0 +1,86 @@
+/* .blogDetailContainer{
+    background-image: url('../assets/image/blog/blogDetail-bg.png');
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.blogDetailContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arvo", serif !important;
+    font-weight: 500;
+    font-style: normal;
+}
+.blDetailimg{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #F76929;
+}
+.blogDetailImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.blogDetailText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:-5px 250px 100px 250px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid,#F76929) 1;
+}
+
+
+.blogDetailImg h2{
+    padding: 25px;
+    font-size: 35px;
+}
+.balondetayblog{
+    width: 200px;
+    float: right;
+    margin-right: -1000px;
+    margin-top: -300px;
+}
+@media screen and (max-width: 480px) {
+    .blDetailimg{
+        width: 300px;
+    }
+    .blogLine{
+        width: 200px;
+    }
+    .balondetayblog {
+        width: 85px;
+        float: right;
+        margin-right: -268px;
+        margin-top: -19px;
+    }
+    .blogDetailText{
+        margin: 10px 50px 0px 50px;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .balondetayblog{
+        width: 149px;
+        float: right;
+        margin-right: -487px;
+        margin-top: -46px;
+    }
+    .blogDetailText {
+        margin: 10px 140px 0px 140px;
+        padding: 10px;
+    }
+}

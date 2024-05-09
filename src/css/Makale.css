@@ -1,0 +1,126 @@
+:root{
+    --koyuKrem:#eadfcc9c;
+      --krem: #EADFCC;
+      --siyah:#000;
+      --beyaz:#fff;
+      --sarı:#FAB319;
+      --lacivert:#2C4073;
+      --mavi:#1AB9FF;
+      --pembe:#FC477E;
+      --mor:#A32CFF;
+      --nar:#FF6D6D;
+  }
+/* .makaleContainer{
+    background-image: url('../assets/image/makale/makale-bg.png');
+    background-repeat: no-repeat;
+	background-position: center;
+    background-size: cover;
+} */
+
+
+.makaleImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animate__backındown; 
+    animation-duration: 1.5s;
+}
+@keyframes animate__backındown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.makaleImg img{
+    width: 600px;
+}
+
+.makaleBox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    /* grid-template-columns: repeat(auto-fit, minmax(min(11.25rem, 100%),1fr)); */
+    justify-content: center;
+    gap: 30px;
+    margin: 50px 50px 0px 50px;
+
+    
+}
+
+.makaleItem{
+    display: flex;
+    flex-direction: column;
+    border: 2px dotted var(--lacivert);  
+    gap: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    transition: all 1s;
+    cursor: pointer;
+}
+.makaleItem:hover{
+    border: 2px solid var(--lacivert);
+}
+.makaleItem h4{
+    font-size: 18px;
+    font-family: "Salsa", cursive;
+    color: var(--lacivert);
+}
+.makaleItem img{
+    width: 100%;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.read-more {
+    color: var(--nar);
+    font-size: 19px;
+    font-family: "Salsa", cursive;
+    width: 90px;
+    border-radius: 50% 10% 50% 10% / 10% 50% 10% 50%;
+    padding: 10px;
+    border: 2px solid var(--lacivert);
+}
+.read-more svg{
+    fill: var(--nar);
+}
+.makale-link{
+    color: #000;
+}
+
+@media screen and (max-width: 480px) {
+    .makaleImg img {
+        width: 275px;
+    }  
+    .makaleBox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        margin:30px 30px 0px 30px;
+    }
+    .makaleItem img{
+        height: 200px;
+    }
+    .makaleItem{
+        width: 300px;
+    }
+
+}
+
+/* Tablet için stiller */
+@media screen and (min-width: 481px) and (max-width: 950px) {
+    .makaleImg img {
+        width: 400px;
+    }  
+    .makaleBox{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        gap: 30px;
+    }
+}

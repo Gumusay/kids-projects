@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+.HaberDetailContainer{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    font-family: "Arvo", serif !important;
+    font-weight: 500;
+    font-style: normal;
+}
+.HbrDetailimg{
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 7px 7px 7px #223668;
+}
+.HaberDetailImg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.HaberDetailText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px 50px 100px 100px;
+    padding: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid,#F76929) 1;
+}
+
+
+.HaberDetailImg h2{
+    padding: 25px;
+    font-size: 35px;
+}
+.rightAuthorDetail{
+    margin-right: 137px;
+    border: 1px solid #223668;
+    margin-bottom: 353px;
+}
+.AuthorItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #223668;
+    padding: 10px;
+}
+.AuthorItem img{
+    border-radius: 50%;
+}
+.rightAuthorDetail h3{
+    background-color: antiquewhite;
+    padding: 10px;
+    border-bottom: 1px solid #223668;
+}
+.dateicontext{
+    display: flex;
+    gap: 7px;
+    margin-left: 100px;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .HbrDetailimg{
+        width: 300px;
+    }
+    .HaberDetailText{
+        margin: 10px 50px 0px 50px;
+        padding: 10px;
+    }
+    .rightAuthorDetail{
+        display: none;
+    }
+    .dateicontext {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+    .HaberDetailText {
+        margin: 10px 140px 0px 140px;
+        padding: 10px;
+    }
+    .rightAuthorDetail{
+        display: none;
+    }
+    .dateicontext {
+        margin-left: 140px;
+    }
+}

@@ -1,0 +1,136 @@
+:root{
+    --koyuKrem:#eadfcc9c;
+      --krem: #EADFCC;
+      --siyah:#000;
+      --beyaz:#fff;
+      --sarı:#FAB319;
+      --lacivert:#2C4073;
+      --mavi:#1AB9FF;
+      --pembe:#FC477E;
+      --mor:#A32CFF;
+      --nar:#FF6D6D;
+  }
+
+  .deneyContainer{
+    /* background-image: url('../assets/image/deney/colorful-deney.png');
+    background-repeat: no-repeat;
+	  background-position: center;
+    background-size: cover; */
+    padding: 30px;
+  }
+  .deneyImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: animate__backındown; 
+    animation-duration: 1.5s;
+  }
+
+  @keyframes animate__backındown {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+  .deneyImg img{
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0)); */
+    padding: 10px;
+    border-radius: 20%;
+    width: 550px;
+    margin-bottom: 50px;
+    backdrop-filter: blur(15px);
+
+  }
+ 
+
+  .swiper{
+    width: 100%;
+    height: auto;
+    max-width: 1440px;
+    margin: 0 auto ;
+    backdrop-filter: blur(15px);
+    padding: 32px !important;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 16px;
+    cursor: pointer
+  }
+
+  .swiper h3{
+    text-transform: uppercase;
+  }
+
+
+  .deneylerContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 100px 0px 100px;
+  }
+
+  .deneyTitle{
+    backdrop-filter: blur(15px);
+    margin-bottom: 20px;
+    padding: 50px;
+    border: 2px solid rgba(0,0,0,0.1);
+  }
+  
+
+  .deneyParagraf{
+    display: grid;
+    grid-template-areas:
+      "des des"
+      "req role";
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.1);
+    backdrop-filter: blur(20px);
+    padding: 30px;
+  }
+
+  .deneyDes { 
+    grid-area: des;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  /* lightblue */
+  .desImgdeney{
+    box-shadow: 5px 5px 5px #F76929;
+    border-radius: 10px;
+  }
+  .require{ grid-area: req; }
+  .role { grid-area: role; }
+
+  .deneylerContent h2{
+    text-transform: uppercase;
+  }
+
+  @media screen and (max-width: 480px) {
+    .deneyContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    /* .swiper{
+      max-width: 480px
+    } */
+    .deneyImg img{
+      width: 250px;
+    }  
+  }
+
+  @media screen and (min-width: 481px) and (max-width: 950px) {
+    /* .swiper{
+      max-width: 900px
+    } */
+    .deneyImg img{
+      width: 350px;
+    }  
+  }

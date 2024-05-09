@@ -1,0 +1,402 @@
+:root{
+    --koyuKrem:#eadfcc9c;
+      --krem: #EADFCC;
+      --siyah:#000;
+      --beyaz:#fff;
+      --sarı:#FAB319;
+      --lacivert:#2C4073;
+      --mavi:#1AB9FF;
+      --pembe:#FC477E;
+      --mor:#A32CFF;
+      --nar:#FF6D6D;
+}
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.homeInfKayıt{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 70px;
+}
+
+.homeLeft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.IconHomeLeft{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+.IconHomeItems{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.IconHomeItems p{
+    font-size: 12px;
+}
+.btn-home{
+    background-color:var(--lacivert);
+    color: #fff;
+    width: 91px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.btn-home:hover{
+  background-color: var(--nar);
+}
+.homeInf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:200px;
+    gap: 150px;
+    color: #fff;
+}
+
+.homeInfWrapper{
+    width: 100%;
+    position: relative;
+    height: 60vh;
+    background-color: var(--lacivert);
+}
+.custom-shape-divider-top-1711381024 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711381024 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.5px);
+    height: 203px;
+}
+
+.custom-shape-divider-top-1711381024 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.gameHome{
+    margin:70px 70px 0px 70px;
+    
+}
+.gameHome h2{
+   padding-bottom: 15px;
+}
+
+.gameFullInf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 130px;
+    padding: 30px;
+}
+.gameHomeItem{
+    display: flex;
+    flex-direction: column;
+    /* align-items: left; */
+    justify-content: center;
+    padding: 15px;
+}
+.gameHomeItem h3{
+    padding-top: 20px;
+}
+.makaleHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+    margin: 0 70px;
+}
+.makaletextHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+}
+.btn-home-makale{
+    background-color: var(--lacivert);
+    color: #fff;
+    width: 85px;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.btn-home-makale:hover{
+    background-color: var(--nar);
+}
+
+.deneyWrapperHome{
+    width: 100%;
+    position: relative;
+    height: 90vh;
+    background-color: var(--lacivert);
+}
+.custom-shape-divider-top-1711402047 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1711402047 svg {
+    position: relative;
+    display: block;
+    width: calc(135% + 1.3px);
+    height: 101px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1711402047 .shape-fill {
+    fill: #FFFFFF;
+}
+.deneyHometxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:150px;
+    gap: 10px;
+    color: #fff;
+}
+.deneyHomeItems{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    padding: 10px;
+}
+.blogHome{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--lacivert);
+    width: 100%;
+    gap: 115px;
+    padding: 0 80px;
+    margin: 70px 10px 0;
+}
+
+.blogtextHome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    color: #FFFFFF;
+}
+
+.btn-home-blog{
+    background-color: #FFFFFF;
+    color: var(--lacivert);
+    width: 65px;
+    padding: 10px;
+    border-radius: 5px
+}
+.btn-home-blog:hover{
+    background-color: var(--nar);
+}
+.homeEndPage {
+    display: flex;
+    justify-content: center;
+}
+
+.haberHome{
+    display: flex;
+    justify-content: center;
+    margin: 0 70px 70px 70px;
+    /* gap: 50px; */
+}
+.haberColumn1{
+    padding: 40px;
+    border-right:1px solid var(--lacivert) ;
+}
+.haberColumn2{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px;
+    border-right:1px solid var(--lacivert) ;
+
+}
+.haberColumn3{
+    padding: 40px;
+    border-right:1px solid var(--lacivert) ;
+
+}
+.haberColumn4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    border-right:1px solid var(--lacivert) ;
+
+}
+
+.homeHaberItem{
+    padding-bottom:10px ;
+    border-bottom:2px solid var(--lacivert) ;
+
+}
+
+
+.haberHome img{
+    border-radius: 10px;
+}
+
+.haberHome h3{
+    padding-top:20px;
+}
+.HomePageImg{
+    display: block;
+}
+@media only screen and (max-width: 600px) {
+    .HomePageImg{
+        display: none;
+    }  
+    .homeContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        /* width: 375px; */
+    }
+    .homeLeft {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    .homeInf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding-left: 5px;
+        padding-right: 5px;
+        padding-top: 270px;
+    }
+    .homeInfWrapper {
+        height: 80vh;
+    }
+
+    .gameFullInf {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 60px;
+        padding: 10px;
+    }
+    .makaleHome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 35px;
+        margin: 50px 70px;
+    }
+    .deneyHomeItems {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-content: center;
+        gap: 45px;
+        padding: 10px;
+    }
+    .deneyHometxt{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        margin-top: 100px;
+    }
+    .deneyWrapperHome {
+        height: 100vh;
+    }
+    .blogHome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 45px;
+        padding: 15px 60px;
+        margin: 70px 10px 0;
+    }
+    .haberHome {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 70px 70px 70px;
+    }
+    .blogtextHome {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .blogHome img{
+        width: 300px;
+    }
+    .homeEndPage img{
+        width: 200px;
+    }
+    .makaleHome img{
+        width: 300px;
+    }
+} 
+@media screen and (min-width: 601px) and (max-width: 1367px) {
+    .homeContainer {
+        gap: 10px;
+    }
+    .homeInfWrapper {
+        height: 40vh;
+    }
+    .homeInf {
+        gap: 50px;
+    }
+    .gameFullInf {
+        gap: 80px;
+        padding: 10px 0px;
+    }
+    .gameHome p{
+        padding-bottom: 20px;
+    }
+    .makaleHome {
+        gap: 100px;
+        margin: 50px;
+    }
+    .makaleHome img{
+        width: 350px;
+    }
+    .deneyWrapperHome {
+        height: 65vh;
+    }
+    .blogHome {
+        gap: 90px;
+        padding: 30px 80px;
+    }
+    .blogHome img{
+        width: 350px;
+    }
+}
