@@ -124,13 +124,53 @@
     .deneyImg img{
       width: 250px;
     }  
+    .desImgdeney{
+      width: 350px;
+    }
+    .deneyParagraf{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .deneyline{ 
+     display: none;
+    }
+    .deneyDes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   @media screen and (min-width: 481px) and (max-width: 950px) {
     /* .swiper{
       max-width: 900px
     } */
+    .deneyContainer{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .deneyDes {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
     .deneyImg img{
       width: 350px;
-    }  
+    } 
+    .desImgdeney{
+      width: 370px;
+    } 
+    .deneyParagraf{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+    }
+    .deneyline{ 
+      display: none;
+     }
   }

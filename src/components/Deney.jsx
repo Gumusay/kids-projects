@@ -86,7 +86,7 @@ export default function Deney(){
                                     <div className='deneyDes'>
                                         <img className='desImgdeney' width={400} height={300} src={selectedDeney.image} alt="image" />
                                         <p>{selectedDeney.description}</p>
-                                        <img src={lineDeney} alt="lineDeney" />
+                                        <img className='deneyline' src={lineDeney} alt="lineDeney" />
                                     </div>
                                     
 
