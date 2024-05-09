@@ -2,7 +2,7 @@
 [
     {
       "id": 1,
-      "image":"/assets/image/blog/ucurtma.jpg",
+      "image":"/src/assets/image/blog/ucurtma.jpg",
       "title": "Eğlenceli El Sanatları: Kağıttan Uçurtma Yapımı",
       "author": "Ayşe Yılmaz",
       "date": "2024-03-01",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "image":"/assets/image/blog/doga.jpg",      
+      "image":"/src/assets/image/blog/doga.jpg",      
       "title": "Doğa Yürüyüşüne Çıkıyoruz!",
       "author": "Ahmet Demir",
       "date": "2023-02-25",
