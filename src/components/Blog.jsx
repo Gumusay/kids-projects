@@ -1,5 +1,5 @@
 import '../css/Blog.css'
-import BlogText from '../assets/image/blog/blog-text.png'
+import BlogText from '../../public/blog/blog-text.png'
 import BlogData from '../json/blogs.json'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
