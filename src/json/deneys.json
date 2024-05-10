@@ -2,7 +2,7 @@
 [
     {
       "id": 1,
-      "image":"../../public/deney/yumurta.jpg",
+      "image":"/deney/yumurta.jpg",
       "title": "Şişedeki yumurta",
       "description": "Şişenin yumurtayı nasıl hüp diye yuttuğunu gördünüz, değil mi? Bu deney, çocuklara hava basıncı kavramını öğretmek için ideal. Açıklaması ise aşağıdaki şekilde.\n Şişenin içinde yanan alev, havayı ısıtıyor. Şişenin içerisinde ateşin yanmasını sağlayacak kadar oksijen kalmayınca mum mecburen sönüyor ve şişe soğumaya başlıyor. Bu sebeple şişenin içerisindeki hava basıncı azalıyor. Hava basıncının azalması da şişenin tıpkı bir süpürge gibi vakum uygulamasını sağlıyor, bu sebeple yumurta şişenin içine giriveriyor!\n Yumurtayı çıkarmak için de bu yöntemin tam tersini izlemeniz gerekiyor, yani şişenin içerisindeki hava basıncını artırmak. Bunu yapmak için şişeye mümkün olduğunca fazla hava girmeli, bunu yapmanın en pratik yolu ise şişeye üflemek. Sert bir nefes vererek havanın yumurtayı dışarı çıkardığını görebilirsiniz – fakat dikkat edin, bunu yapmak biraz zorlayabilir!\n Eğer deneyi daha da ilgi çekici bir hâle getirmek istiyorsanız kartonlar, süsleme kağıtları kullanarak şişenizi bir “Canavar” yapabilirsiniz. Şişeyi dilediğiniz gibi kişiselleştirmenizin ardından yumurta yiyen canavar şişeniz hazır!\n Bu deneyin kesinlikle bir yetişkin gözetimi altında yapılması çok önemli, çünkü ateş içeren deneyler küçük çocuklar için tehlikeli olabilir. Yumurtanın şişeye rahat bir şekilde girebilmesini sağlayıp parçalanmasını önlemek için deneye başlamadan önce şişenin ağzını biraz ıslatmanızı öneririz.",
       "requirements": {
@@ -51,7 +51,7 @@
 
     {
       "id": 3,
-      "image":"./src/assets/image/deney/mikrop.jpg",
+      "image":"/deney/mikrop.jpg",
       "title": "Mikrop deneyi",
       "description": "Bu çocuk deneyinin sonunda karabiberin deterjanlı parmağınızdan hemen uzaklaştığını göreceksiniz. Bunun sebebi ise deterjanın formülü. Temizlik malzemeleri, suyun yüzey gerilimini kırdığı için karabiberin dağılmasını sağlıyor.\n Bu deneyi kullanarak çocuğunuza elini neden sabunla yıkaması gerektiğini anlatabilirsiniz, çünkü mikroplar da sabuna tıpkı karabiber gibi bir tepki vererek kaçacaktır.",
       "requirements": {
@@ -74,7 +74,7 @@
     },
     {
       "id": 4,
-      "image":"./src/assets/image/deney/karton-bardak.jpg",      
+      "image":"/deney/karton-bardak.jpg",      
       "title": "Sızmayan su",
       "description": "Oldukça basit olan ve evdeki malzemelerle yapabileceğiniz bu çocuk deneyi, yer çekiminin nasıl çalıştığını öğretmek için ideal.\n Bu deneyin sırrı, yer çekimi olarak da bilinen kütle çekim gücü. Nesneleri Dünya’nın merkezine çeken bu güç, günlük hayatta nesnelerin düşmesine sebep olan kuvvet olarak karşımıza çıkıyor. Kütle çekim kuvveti, hava direnci aynı olduğu sürece bütün nesnelerin aynı hızda yere düşmesini sağlıyor. Deneyin ilk aşamasında siz bardağı tutarken suyun aşağı doğru sızmasının sebebi bu güç. Kütle çekimi hem bardağı hem de suyu Dünya’nın merkezine doğru çekiyor, su da aşağı doğru gidebilmek için mecburen deliklerden sızıyor \n Deneyin sonraki aşamasında ise daha farklı bir sonuç gözlemliyoruz. Yer çekimi, yine hem bardağı hem de suyu çekiyor. Fakat bu sefer bardağı tutan bir güç olmadığı için suyla birlikte bardak da aşağı doğru düşüyor. Su, zaten bardakla birlikte düştüğü için bardaktan sızmasına gerek kalmıyor! \n Çocuklar için uygulayabileceğiniz bu basit deneyle birlikte çocuğunuza kütle çekim kuvvetini öğretebilir, hatta sonrasında ise bu kuvveti kütleye sahip olan bütün nesnelerin uyguladığını anlatabilirsiniz. ",
       "requirements": {
@@ -96,7 +96,7 @@
     },
     {
       "id": 5,
-      "image":"./src/assets/image/deney/kagit.jpg",
+      "image":"/deney/kagit.jpg",
       "title": "Islanmayan kağıt",
       "description": "Çocuklar, bu deneyin sonunda tuvalet kağıdının ıslanmamasına çok şaşırıyor! Bunun ardındaki sebep ise hava basıncı. Bardağın içerisindeki hava, suyun içerisindeyken dışarı çıkmaya çalıştığı için suyun içeri girmesine izin vermiyor. Bu sebeple tuvalet kağıdı da ıslanmıyor. \n Bu deneyi yaparken bardağı biraz eğerseniz yukarı doğru baloncuklar çıktığını fark edeceksiniz. Bu durumda içeri biraz su girecektir, fakat bardağın içinde yine de hava bulunacaktır. Çocuğunuzdan bu deneyi bardağı farklı açılarla suyun içine sokup çıkararak yapmasını isteyebilirsiniz. \n Bu deneyi ayrıca daha farklı bir şekilde yapmanız da mümkün! Bu sefer bardağımızı tuvalet kağıdı olmadan suyun içerisine sokuyoruz. Bardağı suyun içerisinde biraz eğik tuttuktan sonra yavaşça suyun dışarısına çıkarıyoruz – ama tamamını değil, sadece bir kısmını. Bardağın içerisinde biraz su kaldığını göreceksiniz! Çünkü bardağın içine tekrar girmek isteyen hava, bu suyu içeride tutuyor.",
       "requirements": {
@@ -118,7 +118,7 @@
     },
     {
       "id": 6,
-      "image":"./src/assets/image/deney/kalem.jpg",
+      "image":"/deney/kalem.jpg",
       "title": "Kırık Kalem",
       "description": "Bu deneyde kalemin kırılmış gibi görünme sebebi, ışığın kırılması. Su, ışığı kırarak içerisindeki nesneleri eğik bir şekilde görmemize sebep oluyor. Yağ, bu konuda sudan çok daha kuvvetli olduğu için daha güçlü bir etki yaratıyor. Hatta yağ kullanınca doğru açıdan bakarsanız kalemin kaybolduğunu bile görme şansınız var! \n Bu deneyi yaparken bardağa önce biraz yağ, sonra da su dökerek ne olacağını gözlemleyebilirsiniz. Böylece aynı zamanda yağın suyun üzerine nasıl çıktığını göreceksiniz. Kalemi yağ ve suyun içerisine koyarak ışığın nasıl farklı şekillerde kırıldığını, yağın ise özkütlesinden dolayı nasıl suyun üzerinde kaldığını görebilirsiniz. ",
       "requirements": {
