@@ -1,6 +1,6 @@
 import '../css/Makale.css'
 import makaleData from '../json/makales.json'
-import makaleText from '../assets/image/makale/makaleTex.png'
+import makaleText from '../../public/makale/makaleTex.png'
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 

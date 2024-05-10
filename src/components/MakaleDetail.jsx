@@ -1,9 +1,9 @@
 import { useParams } from 'react-router-dom';
 import '../css/MakaleDetail.css';
 import makaleData from '../json/makales.json';
-import makaleDetailLine from '../assets/image/makale/sunLine.png';
-import ucanKalem from '../assets/image/makale/ucanKalem.png';
-import starMakale from '../assets/image/makale/starMakale.png';
+import makaleDetailLine from '../../public/image/makale/sunLine.png';
+import ucanKalem from '../../public/image/makale/ucanKalem.png';
+import starMakale from '../../public/image/makale/starMakale.png';
 
 export default function MakaleDetail() {
     const {id} = useParams();
