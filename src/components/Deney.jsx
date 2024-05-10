@@ -5,7 +5,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
 import DeneyText from '../../public/deney/deney-txt.png';
-import lineDeney from '../../public/deney/deney/line.png'; 
+import lineDeney from '../../public/deney/line.png'; 
 import { useEffect, useState } from 'react';
 
 export default function Deney(){
