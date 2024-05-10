@@ -16,12 +16,12 @@ import kalem from '../assets/image/home/kalemDeney.png';
 import blogHome from '../assets/image/home/blog.png';
 import homend from '../assets/image/home/homeEnd.png';
 
-import uzayBitki from '../assets/image/haber/uzayBitki.jpg';
-import fare from '../assets/image/haber/fare.jpg';
-import mont from '../assets/image/haber/mont-saint.jpg';
-import paris from '../assets/image/haber/paris.jpg';
-import tırMuze from '../assets/image/haber/tırMobil.jpg';
-import leonardo from '../assets/image/haber/leonardo.jpg';
+import uzayBitki from '../../public/haber/uzayBitki.jpg';
+import fare from '../../public/haber/fare.jpg';
+import mont from '../../public/haber/mont-saint.jpg';
+import paris from '../../public/haber/paris.jpg';
+import tırMuze from '../../public/haber/tırMobil.jpg';
+import leonardo from '../../public/haber/leonardo.jpg';
 import { Link } from 'react-router-dom';
 
 
