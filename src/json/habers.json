@@ -2,7 +2,7 @@
 [
     {
       "id": 1,
-      "image":"../src/assets/image/haber/makineKitap.jpg",      
+      "image":"/haber/makineKitap.jpg",      
       "title": "“Üç Boyutlu Yazıcı: Defne’nin Mucize Makinesi” Raflarda",
       "author": "Eda Çiftci",
       "date": "2024-03-15",
@@ -12,7 +12,7 @@
     
     {
       "id": 2,
-      "image":"../src/assets/image/haber/leonardo.jpg",      
+      "image":"/haber/leonardo.jpg",      
       "title": "Leonardo da Vinci ile Sanat Yaşamı Üzerine “Hayali” Bir Röportaj",
       "author": "Adnan Altın",
       "date": "2023-02-25",
@@ -22,7 +22,7 @@
     },
     {
       "id": 3,
-      "image":"../src/assets/image/haber/uzayBitki.jpg",
+      "image":"/haber/uzayBitki.jpg",
       "title": "Uzayda Bitki Yetiştirmek: Geleceğin Tarımı!",
       "author": "Süleyman Akın",
       "date": "2023-02-20",
@@ -31,7 +31,7 @@
     },
     {
       "id": 4,
-      "image":"../src/assets/image/haber/paris.jpg",
+      "image":"/haber/paris.jpg",
       "title": "Paris’in Sanat Müzesi",
       "author": "Su Yılmaz",
       "date": "2022-02-15",
@@ -41,7 +41,7 @@
 
     {
       "id": 5,
-      "image":"../src/assets/image/haber/tırMobil.jpg",
+      "image":"/haber/tırMobil.jpg",
       "title": "Mobil Müze Tırı",
       "author": "Bora Uzun",
       "date": "2024-02-10",
@@ -50,7 +50,7 @@
     },
     {
       "id": 6,
-      "image":"../src/assets/image/haber/fare.jpg",
+      "image":"/haber/fare.jpg",
       "title": "Sevimli Farelerin Kahramanı Walt Disney",
       "author": "Emine Gümüş",
       "date": "2024-03-01",
@@ -59,7 +59,7 @@
     },
     {
       "id": 7,
-      "image":"../src/assets/image/haber/ebenezer.jpg",
+      "image":"/haber/ebenezer.jpg",
       "title": "Dünyanın En Kısa Sokağı: Ebenezer Sarayı",
       "author": "Nihat Doğu",
       "date": "2022-02-15",
@@ -69,7 +69,7 @@
 
     {
       "id": 8,
-      "image":"../src/assets/image/haber/mont-saint.jpg",
+      "image":"/haber/mont-saint.jpg",
       "title": "Masal Gibi Bir Ada: Mont Saint Michel",
       "author": "Akif Yeni",
       "date": "2023-02-20",
@@ -78,7 +78,7 @@
     },
     {
       "id": 9,
-      "image":"../src/assets/image/haber/diş.jpg",
+      "image":"/haber/diş.jpg",
       "title": "Neden Dişlerinizi Sıkıyorsunuz? Çocuklarda Diş Sıkmanın Sırrı!",
       "author": "Sevgi Işık",
       "date": "2023-07-01",
@@ -87,7 +87,7 @@
     },
     {
       "id": 10,
-      "image":"../src/assets/image/haber/kim.jpg",      
+      "image":"/haber/kim.jpg",      
       "title": "“Acaba Ben Kimim?” Raflarda",
       "author": "Buse Demir",
       "date": "2023-02-25",

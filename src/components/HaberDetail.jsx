@@ -2,11 +2,11 @@
 import '../css/HaberDetail.css'
 import { useParams } from 'react-router-dom';
 import HaberData from '../json/habers.json';
-import AuthorSel from '../assets/image/haber/authorSel.jpg';
-import AuthorEce from '../assets/image/haber/authorEce.jpg';
-import AuthorEro from '../assets/image/haber/authorEro.jpg';
-import AuthorAkı from '../assets/image/haber/authorAkı.jpg';
-import EndDeta from '../assets/image/haber/haber-deta-end.png';
+import AuthorSel from '../../public/haber/authorSel.jpg';
+import AuthorEce from '../../public/haber/authorEce.jpg';
+import AuthorEro from '../../public/haber/authorEro.jpg';
+import AuthorAkı from '../../public/haber/authorAkı.jpg';
+import EndDeta from '../../public/haber/haber-deta-end.png';
 
 
 

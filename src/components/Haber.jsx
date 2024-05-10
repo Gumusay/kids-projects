@@ -1,7 +1,7 @@
 import '../css/Haber.css';
 import haberData from '../json/habers.json';
 import { Link } from 'react-router-dom';
-import haberText from '../assets/image/haber/haberTxt.png'
+import haberText from '../../public/haber/haberTxt.png'
 
 export default function Haber() {
     return(
