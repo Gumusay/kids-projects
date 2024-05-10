@@ -2,11 +2,11 @@
 [
     {
       "id": 1,
-      "image":"./src/assets/image/deney/yumurta.jpg",
+      "image":"../../public/deney/yumurta.jpg",
       "title": "Şişedeki yumurta",
       "description": "Şişenin yumurtayı nasıl hüp diye yuttuğunu gördünüz, değil mi? Bu deney, çocuklara hava basıncı kavramını öğretmek için ideal. Açıklaması ise aşağıdaki şekilde.\n Şişenin içinde yanan alev, havayı ısıtıyor. Şişenin içerisinde ateşin yanmasını sağlayacak kadar oksijen kalmayınca mum mecburen sönüyor ve şişe soğumaya başlıyor. Bu sebeple şişenin içerisindeki hava basıncı azalıyor. Hava basıncının azalması da şişenin tıpkı bir süpürge gibi vakum uygulamasını sağlıyor, bu sebeple yumurta şişenin içine giriveriyor!\n Yumurtayı çıkarmak için de bu yöntemin tam tersini izlemeniz gerekiyor, yani şişenin içerisindeki hava basıncını artırmak. Bunu yapmak için şişeye mümkün olduğunca fazla hava girmeli, bunu yapmanın en pratik yolu ise şişeye üflemek. Sert bir nefes vererek havanın yumurtayı dışarı çıkardığını görebilirsiniz – fakat dikkat edin, bunu yapmak biraz zorlayabilir!\n Eğer deneyi daha da ilgi çekici bir hâle getirmek istiyorsanız kartonlar, süsleme kağıtları kullanarak şişenizi bir “Canavar” yapabilirsiniz. Şişeyi dilediğiniz gibi kişiselleştirmenizin ardından yumurta yiyen canavar şişeniz hazır!\n Bu deneyin kesinlikle bir yetişkin gözetimi altında yapılması çok önemli, çünkü ateş içeren deneyler küçük çocuklar için tehlikeli olabilir. Yumurtanın şişeye rahat bir şekilde girebilmesini sağlayıp parçalanmasını önlemek için deneye başlamadan önce şişenin ağzını biraz ıslatmanızı öneririz.",
       "requirements": {
-        "items": [
+        "items": [  
           "Bir cam şişe",
           "Haşlanmış yumurta",
           "Ufak bir kağıt parçası veya pasta mumu",
@@ -25,7 +25,7 @@
 
     {
       "id": 2,
-      "image":"./src/assets/image/deney/murekkep.jpg",
+      "image":"/deney/murekkep.jpg",
       "title": "Görünmez mürekkep",
       "description": "Böyle bir sihirli mürekkebi üretebilmemizin ardında yatan sır, limon suyunun içerisindeki karbon molekülleri. Oda sıcaklığında tamamen renksiz olan bu moleküller, biraz ısıyla karşılaştığında renk alıyor ve görünmezliğini kaybediyor.\n Esasında aynı moleküller sadece limon suyunda değil, aynı zamanda organik olan sirke, soğan suyu, bal, portakal suyunda da mevcut. Evde sahip olduğunuz malzemelere göre deneyinizi şekillendirebilirsiniz, karbon molekülleri yine aynı tepkiyi vererek sihirli mesajınızı ortaya çıkaracaktır!",
       "requirements": {

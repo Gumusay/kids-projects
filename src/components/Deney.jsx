@@ -4,8 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
-import DeneyText from '../assets/image/deney/deney-txt.png';
-import lineDeney from '../assets/image/deney/line.png';
+import DeneyText from '../../public/deney/deney-txt.png';
+import lineDeney from '../../public/deney/deney/line.png'; 
 import { useEffect, useState } from 'react';
 
 export default function Deney(){
