@@ -124,9 +124,7 @@
     .deneyImg img{
       width: 250px;
     }  
-    .desImgdeney{
-      width: 350px;
-    }
+   
     .deneyParagraf{
       display: flex;
       flex-direction: column;

@@ -31,33 +31,29 @@ export default function Deney(){
               
 
                 <div className="swiper">
-                    <Swiper
-                            spaceBetween={50}
-                            slidesPerView={4}
-                            pagination={{ 
-                                clickable: true,
-                                currentClass: "mt-10"
+                         <Swiper
+                            slidesPerView={1}
+                            pagination={{
+                            clickable: true,
+                            currentClass: "mt-10"
                             }}
                             autoplay={{
-                                delay: 2500,
-                                disableOnInteraction: false,
+                            delay: 2500,
+                            disableOnInteraction: false,
                             }}
                             breakpoints= {{
-                                640: {
-                                    slidesPerView: 2,
-                                    spaceBetween: 20,
-                                },
-                                768: {
-                                    slidesPerView: 4,
-                                    spaceBetween: 40,
-                                },
-                                1024: {
-                                    slidesPerView: 5,
-                                    spaceBetween: 50,
-                                }
+                            640: {
+                                slidesPerView: 1
+                            },
+                            768: {
+                                    slidesPerView: 2
+                            },
+                            1024: {
+                                    slidesPerView: 4
+                            }
                             }}
                             modules={[Pagination, Autoplay]}
-                            
+
                         >
                 
                         {deneyData.map((deney) => (
