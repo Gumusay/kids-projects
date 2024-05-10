@@ -2,8 +2,8 @@
 import '../css/BlogDetail.css'
 import { useParams } from 'react-router-dom';
 import BlogData from '../json/blogs.json';
-import blogDetailLine from '../assets/image/blog/detail-line.png';
-import balondetay from '../assets/image/blog/balondetay.png';
+import blogDetailLine from '../../public/blog/detail-line.png';
+import balondetay from '../../public/blog/balondetay.png';
 export default function BlogDetail() {
     const { id } = useParams();
     const blogId = parseInt(id); 
